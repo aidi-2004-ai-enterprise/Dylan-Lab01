@@ -9,3 +9,6 @@ List tests or steps to verify the changes.
 
 ## Screenshots (if applicable)
 Attach relevant screenshots.
+
+uv init .
+uv sync

@@ -26,5 +26,9 @@ def main():
     model = XGBClassifier(use_label_encoder=False, eval_metric='mlogloss')
     print("XGBoost model created.")
 
+    # Person C - Fit the model
+    model.fit(X_train, y_train)
+    print("Model training complete.")
+
 if __name__ == "__main__":
     main()
